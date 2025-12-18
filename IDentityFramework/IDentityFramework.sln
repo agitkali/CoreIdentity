@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36511.14 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASPNETCoreIdentityDemo", "ASPNETCoreIdentityDemo", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETCoreIdentityFrameWork", "ASPNETCoreIdentityFrameWork\ASPNETCoreIdentityFrameWork.csproj", "{FA47B63B-8DB4-46A3-9BC8-45E76E493E39}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA47B63B-8DB4-46A3-9BC8-45E76E493E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA47B63B-8DB4-46A3-9BC8-45E76E493E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA47B63B-8DB4-46A3-9BC8-45E76E493E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA47B63B-8DB4-46A3-9BC8-45E76E493E39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA47B63B-8DB4-46A3-9BC8-45E76E493E39} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {92BC95B6-D606-4C80-949D-C2024EC2056A}
